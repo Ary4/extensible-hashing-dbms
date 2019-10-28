@@ -22,6 +22,7 @@ class Bucket {
 };
 
 class Directory {
+                //directory classes here
         int global_depth, bucket_size;
         std::vector<Bucket*> buckets;
         int hash(int n);
